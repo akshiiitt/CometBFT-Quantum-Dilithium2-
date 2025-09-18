@@ -1,6 +1,6 @@
 module github.com/cometbft/cometbft
 
-go 1.22.11
+go 1.23
 
 require (
 	github.com/BurntSushi/toml v1.4.0
@@ -44,10 +44,13 @@ require (
 	golang.org/x/sync v0.11.0
 	gonum.org/v1/gonum v0.15.1
 	google.golang.org/grpc v1.70.0
-	google.golang.org/protobuf v1.36.5
+	google.golang.org/protobuf v1.36.9
 )
 
-require github.com/cloudflare/circl v1.3.7
+require (
+	github.com/cloudflare/circl v1.3.7
+	github.com/gogo/protobuf v1.3.2
+)
 
 require (
 	dario.cat/mergo v1.0.0 // indirect
@@ -78,7 +81,6 @@ require (
 	github.com/getsentry/sentry-go v0.27.0 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
 	github.com/go-git/go-billy/v5 v5.6.2 // indirect
-	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/glog v1.2.3 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/snappy v0.0.4 // indirect
