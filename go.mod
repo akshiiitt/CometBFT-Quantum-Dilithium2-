@@ -1,6 +1,6 @@
 module github.com/akshiiitt/CometBFT-Quantum-Dilithium2-
 
-go 1.22.11
+go 1.23
 
 require (
 	github.com/BurntSushi/toml v1.4.0
@@ -44,7 +44,7 @@ require (
 	golang.org/x/sync v0.11.0
 	gonum.org/v1/gonum v0.15.1
 	google.golang.org/grpc v1.70.0
-	google.golang.org/protobuf v1.36.5
+	google.golang.org/protobuf v1.36.9
 )
 
 require (
