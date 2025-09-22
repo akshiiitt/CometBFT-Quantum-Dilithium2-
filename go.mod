@@ -47,7 +47,10 @@ require (
 	google.golang.org/protobuf v1.36.5
 )
 
-require github.com/cloudflare/circl v1.3.7
+require (
+	github.com/cloudflare/circl v1.6.1
+	github.com/gogo/protobuf v1.3.2
+)
 
 require (
 	dario.cat/mergo v1.0.0 // indirect
@@ -78,7 +81,6 @@ require (
 	github.com/getsentry/sentry-go v0.27.0 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
 	github.com/go-git/go-billy/v5 v5.6.2 // indirect
-	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/glog v1.2.3 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/snappy v0.0.4 // indirect
