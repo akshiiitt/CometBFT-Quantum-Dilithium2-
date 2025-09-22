@@ -5,12 +5,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto/dilithium"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtnet "github.com/cometbft/cometbft/libs/net"
-	cmtos "github.com/cometbft/cometbft/libs/os"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/dilithium"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	cmtnet "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/net"
+	cmtos "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/os"
 
-	"github.com/cometbft/cometbft/privval"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/privval"
 )
 
 func main() {

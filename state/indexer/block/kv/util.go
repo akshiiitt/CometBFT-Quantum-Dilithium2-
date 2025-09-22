@@ -8,10 +8,10 @@ import (
 
 	"github.com/google/orderedcode"
 
-	idxutil "github.com/cometbft/cometbft/internal/indexer"
-	"github.com/cometbft/cometbft/libs/pubsub/query/syntax"
-	"github.com/cometbft/cometbft/state/indexer"
-	"github.com/cometbft/cometbft/types"
+	idxutil "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/internal/indexer"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/pubsub/query/syntax"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/state/indexer"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 type HeightInfo struct {

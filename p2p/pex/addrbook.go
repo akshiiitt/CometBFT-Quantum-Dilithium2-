@@ -16,13 +16,13 @@ import (
 
 	"github.com/minio/highwayhash"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/p2p"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	cmtmath "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/math"
+	cmtrand "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/rand"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/service"
+	cmtsync "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/sync"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p"
 )
 
 const (

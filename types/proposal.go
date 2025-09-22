@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/libs/protoio"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	cmtbytes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/bytes"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/protoio"
+	cmtproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/types"
+	cmttime "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types/time"
 )
 
 var (

@@ -1,13 +1,13 @@
 package proxy
 
 import (
-	"github.com/cometbft/cometbft/libs/bytes"
-	lrpc "github.com/cometbft/cometbft/light/rpc"
-	rpcclient "github.com/cometbft/cometbft/rpc/client"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpcserver "github.com/cometbft/cometbft/rpc/jsonrpc/server"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/bytes"
+	lrpc "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/light/rpc"
+	rpcclient "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/client"
+	ctypes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/core/types"
+	rpcserver "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/jsonrpc/server"
+	rpctypes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/jsonrpc/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 func RPCRoutes(c *lrpc.Client) map[string]*rpcserver.RPCFunc {

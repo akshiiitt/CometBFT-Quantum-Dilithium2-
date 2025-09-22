@@ -6,10 +6,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cometbft/cometbft/crypto/merkle"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/merkle"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/tmhash"
+	cmtbytes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/bytes"
+	cmtproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/types"
 )
 
 // TxKeySize is the size of the transaction key index

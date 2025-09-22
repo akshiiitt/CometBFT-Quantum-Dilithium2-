@@ -23,10 +23,10 @@ implementation.
 import (
 	"context"
 
-	"github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/libs/service"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	"github.com/cometbft/cometbft/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/bytes"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/service"
+	ctypes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/core/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 // Client wraps most important rpc calls a client would make if you want to

@@ -3,7 +3,7 @@ package log
 import (
 	"fmt"
 
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
+	cmtbytes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/bytes"
 )
 
 type LazySprintf struct {

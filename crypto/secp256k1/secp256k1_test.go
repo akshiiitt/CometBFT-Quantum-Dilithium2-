@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/secp256k1"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/secp256k1"
 )
 
 type keyData struct {

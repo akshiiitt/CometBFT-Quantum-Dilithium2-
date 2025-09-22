@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/libs/test"
+	cmtrand "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/rand"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/test"
 
-	"github.com/cometbft/cometbft/crypto/tmhash"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/tmhash"
 )
 
 type testItem []byte

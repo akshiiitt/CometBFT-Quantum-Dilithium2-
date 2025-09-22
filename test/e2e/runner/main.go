@@ -10,11 +10,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cometbft/cometbft/libs/log"
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
-	"github.com/cometbft/cometbft/test/e2e/pkg/infra"
-	"github.com/cometbft/cometbft/test/e2e/pkg/infra/digitalocean"
-	"github.com/cometbft/cometbft/test/e2e/pkg/infra/docker"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	e2e "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/test/e2e/pkg"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/test/e2e/pkg/infra"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/test/e2e/pkg/infra/digitalocean"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/test/e2e/pkg/infra/docker"
 )
 
 const randomSeed = 2308084734268

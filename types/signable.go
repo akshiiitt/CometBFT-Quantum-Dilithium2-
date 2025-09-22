@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/cometbft/cometbft/crypto/dilithium"
-	tmmath "github.com/cometbft/cometbft/libs/math"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/dilithium"
+	tmmath "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/math"
 )
 
 var (

@@ -9,9 +9,9 @@ import (
 	"log"
 	"testing"
 
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	"github.com/cometbft/cometbft/libs/async"
-	sc "github.com/cometbft/cometbft/p2p/conn"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/ed25519"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/async"
+	sc "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p/conn"
 )
 
 func FuzzP2PSecretConnection(f *testing.F) {

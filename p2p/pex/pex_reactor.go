@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/cmap"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/p2p/conn"
-	tmp2p "github.com/cometbft/cometbft/proto/tendermint/p2p"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/cmap"
+	cmtmath "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/math"
+	cmtrand "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/rand"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/service"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p/conn"
+	tmp2p "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/p2p"
 )
 
 type Peer = p2p.Peer

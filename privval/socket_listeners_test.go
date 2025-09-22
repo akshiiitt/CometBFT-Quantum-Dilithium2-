@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto/ed25519"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/ed25519"
 )
 
 //-------------------------------------------

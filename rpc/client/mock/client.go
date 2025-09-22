@@ -18,13 +18,13 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/rpc/client"
-	"github.com/cometbft/cometbft/rpc/core"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/bytes"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/service"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/client"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/core"
+	ctypes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/core/types"
+	rpctypes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/jsonrpc/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 // Client wraps arbitrary implementations of the various interfaces.

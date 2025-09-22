@@ -8,10 +8,10 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/light/store"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	cmtsync "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/sync"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/light/store"
+	cmtproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 var sizeKey = []byte("size")

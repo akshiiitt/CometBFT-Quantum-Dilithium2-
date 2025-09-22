@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/cometbft/cometbft/crypto/dilithium"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtnet "github.com/cometbft/cometbft/libs/net"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/dilithium"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	cmtnet "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/net"
 )
 
 // IsConnTimeout returns a boolean indicating whether the error is known to

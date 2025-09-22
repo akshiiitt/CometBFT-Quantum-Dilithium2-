@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	cmtflags "github.com/cometbft/cometbft/libs/cli/flags"
-	"github.com/cometbft/cometbft/libs/log"
+	cmtflags "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/cli/flags"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
 )
 
 const (

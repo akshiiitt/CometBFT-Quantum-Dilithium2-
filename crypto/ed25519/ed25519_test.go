@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/ed25519"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/ed25519"
 )
 
 func TestSignAndValidateEd25519(t *testing.T) {

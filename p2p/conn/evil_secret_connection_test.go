@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	cryptoenc "github.com/cometbft/cometbft/crypto/encoding"
-	"github.com/cometbft/cometbft/libs/protoio"
-	tmp2p "github.com/cometbft/cometbft/proto/tendermint/p2p"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/ed25519"
+	cryptoenc "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/encoding"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/protoio"
+	tmp2p "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/p2p"
 )
 
 type buffer struct {

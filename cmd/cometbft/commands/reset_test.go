@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/privval"
+	cfg "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/config"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/privval"
 )
 
 func Test_ResetAll(t *testing.T) {

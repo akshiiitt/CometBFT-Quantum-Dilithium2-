@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/rpc/client"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/types"
+	cmtrand "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/rand"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/client"
+	ctypes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/core/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 var waitForEventTimeout = 8 * time.Second

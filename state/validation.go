@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 //-----------------------------------------------------

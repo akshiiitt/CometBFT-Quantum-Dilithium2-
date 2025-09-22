@@ -5,7 +5,7 @@ package p2p
 
 import (
 	fmt "fmt"
-	crypto "github.com/cometbft/cometbft/proto/tendermint/crypto"
+	crypto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/crypto"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/cosmos/gogoproto/proto"
 	io "io"

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cometbft/cometbft/p2p"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p"
 )
 
 type ErrAddrBookNonRoutable struct {

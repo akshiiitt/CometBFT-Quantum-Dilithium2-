@@ -1,10 +1,10 @@
 package types
 
 import (
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/crypto"
-	cryptoenc "github.com/cometbft/cometbft/crypto/encoding"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	abci "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	cryptoenc "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/encoding"
+	cmtproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/types"
 )
 
 //-------------------------------------------------------

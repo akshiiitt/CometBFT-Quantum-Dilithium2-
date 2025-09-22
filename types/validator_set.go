@@ -10,10 +10,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cometbft/cometbft/crypto/merkle"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/merkle"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/tmhash"
+	cmtmath "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/math"
+	cmtproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/types"
 )
 
 const (

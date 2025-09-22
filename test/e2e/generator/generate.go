@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/Masterminds/semver/v3"
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
-	"github.com/cometbft/cometbft/version"
+	e2e "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/test/e2e/pkg"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/version"
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing/object"
 )

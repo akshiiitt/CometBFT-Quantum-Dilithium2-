@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	bcproto "github.com/cometbft/cometbft/proto/tendermint/blocksync"
+	bcproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/blocksync"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
@@ -16,18 +16,18 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/internal/test"
-	"github.com/cometbft/cometbft/libs/log"
-	mpmocks "github.com/cometbft/cometbft/mempool/mocks"
-	"github.com/cometbft/cometbft/p2p"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/proxy"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/store"
-	"github.com/cometbft/cometbft/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	abci "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/types"
+	cfg "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/config"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/internal/test"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	mpmocks "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/mempool/mocks"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p"
+	cmtproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proxy"
+	sm "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/state"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/store"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
+	cmttime "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types/time"
 )
 
 var config *cfg.Config

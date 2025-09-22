@@ -3,11 +3,11 @@ package consensus
 import (
 	"context"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/clist"
-	mempl "github.com/cometbft/cometbft/mempool"
-	"github.com/cometbft/cometbft/proxy"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/clist"
+	mempl "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/mempool"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proxy"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 //-----------------------------------------------------------------------------

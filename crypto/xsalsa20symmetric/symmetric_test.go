@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/cometbft/cometbft/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
 )
 
 func TestSimple(t *testing.T) {

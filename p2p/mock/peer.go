@@ -3,10 +3,10 @@ package mock
 import (
 	"net"
 
-	"github.com/cometbft/cometbft/crypto/dilithium"
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/p2p/conn"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/dilithium"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/service"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p/conn"
 )
 
 type Peer struct {

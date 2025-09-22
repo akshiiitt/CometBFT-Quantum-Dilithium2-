@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/crypto/merkle"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	abci "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/merkle"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/tmhash"
+	cmtjson "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/json"
+	cmtrand "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/rand"
+	cmtproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/types"
 )
 
 // Evidence represents any provable malicious activity by a validator.

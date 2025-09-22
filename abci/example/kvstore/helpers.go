@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cometbft/cometbft/abci/types"
-	cryptoencoding "github.com/cometbft/cometbft/crypto/encoding"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/proto/tendermint/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/types"
+	cryptoencoding "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/encoding"
+	cmtrand "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/rand"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/crypto"
 )
 
 // RandVal creates one random validator, with a key derived

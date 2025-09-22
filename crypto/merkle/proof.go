@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	cmtcrypto "github.com/cometbft/cometbft/proto/tendermint/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/tmhash"
+	cmtcrypto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/crypto"
 )
 
 const (

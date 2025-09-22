@@ -3,10 +3,10 @@ package proxy
 import (
 	"fmt"
 
-	abcicli "github.com/cometbft/cometbft/abci/client"
-	cmtlog "github.com/cometbft/cometbft/libs/log"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	"github.com/cometbft/cometbft/libs/service"
+	abcicli "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/client"
+	cmtlog "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	cmtos "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/os"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/service"
 )
 
 const (

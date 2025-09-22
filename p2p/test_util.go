@@ -5,14 +5,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/dilithium"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtnet "github.com/cometbft/cometbft/libs/net"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/dilithium"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	cmtnet "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/net"
+	cmtrand "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/rand"
 
-	"github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/p2p/conn"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/config"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p/conn"
 )
 
 const testCh = 0x01

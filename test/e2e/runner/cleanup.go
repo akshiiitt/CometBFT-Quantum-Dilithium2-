@@ -7,10 +7,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cometbft/cometbft/libs/log"
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
-	"github.com/cometbft/cometbft/test/e2e/pkg/exec"
-	"github.com/cometbft/cometbft/test/e2e/pkg/infra/docker"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	e2e "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/test/e2e/pkg"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/test/e2e/pkg/exec"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/test/e2e/pkg/infra/docker"
 )
 
 // Cleanup removes the Docker Compose containers and testnet directory.

@@ -13,22 +13,22 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	cfg "github.com/cometbft/cometbft/config"
-	cstypes "github.com/cometbft/cometbft/consensus/types"
-	"github.com/cometbft/cometbft/crypto"
-	cmtevents "github.com/cometbft/cometbft/libs/events"
-	"github.com/cometbft/cometbft/libs/fail"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/p2p"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	cfg "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/config"
+	cstypes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/consensus/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	cmtevents "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/events"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/fail"
+	cmtjson "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/json"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	cmtmath "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/math"
+	cmtos "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/os"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/service"
+	cmtsync "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/sync"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p"
+	cmtproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/types"
+	sm "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/state"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
+	cmttime "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types/time"
 )
 
 // Consensus sentinel errors
@@ -1123,7 +1123,7 @@ func (cs *State) needProofBlock(height int64) bool {
 
 	lastBlockMeta := cs.blockStore.LoadBlockMeta(height - 1)
 	if lastBlockMeta == nil {
-		// See https://github.com/cometbft/cometbft/issues/370
+		// See https://github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/issues/370
 		cs.Logger.Info("short-circuited needProofBlock", "height", height, "InitialHeight", cs.state.InitialHeight)
 		return true
 	}
@@ -2419,10 +2419,10 @@ func (cs *State) voteTime() time.Time {
 	// Minimum time increment between blocks
 	const timeIota = time.Millisecond
 	// TODO: We should remove next line in case we don't vote for v in case cs.ProposalBlock == nil,
-	// even if cs.LockedBlock != nil. See https://github.com/cometbft/cometbft/tree/v0.38.x/spec/.
+	// even if cs.LockedBlock != nil. See https://github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/tree/v0.38.x/spec/.
 	if cs.LockedBlock != nil {
 		// See the BFT time spec
-		// https://github.com/cometbft/cometbft/blob/v0.38.x/spec/consensus/bft-time.md
+		// https://github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/blob/v0.38.x/spec/consensus/bft-time.md
 		minVoteTime = cs.LockedBlock.Time.Add(timeIota)
 	} else if cs.ProposalBlock != nil {
 		minVoteTime = cs.ProposalBlock.Time.Add(timeIota)

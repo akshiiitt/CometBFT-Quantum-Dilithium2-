@@ -10,16 +10,16 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/internal/test"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	"github.com/cometbft/cometbft/privval"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
-	"github.com/cometbft/cometbft/types"
-	"github.com/cometbft/cometbft/version"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/tmhash"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/internal/test"
+	cmtjson "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/json"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/privval"
+	cmtproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/types"
+	cmtversion "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/version"
+	e2e "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/test/e2e/pkg"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/version"
 )
 
 // 1 in 4 evidence is light client evidence, the rest is duplicate vote evidence

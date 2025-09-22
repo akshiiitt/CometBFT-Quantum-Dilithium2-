@@ -3,10 +3,10 @@ package mempool
 import (
 	"errors"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/service"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 // NopMempool is a mempool that does nothing.

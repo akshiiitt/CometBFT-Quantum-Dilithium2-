@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/cometbft/cometbft/libs/log"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	rpcserver "github.com/cometbft/cometbft/rpc/jsonrpc/server"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	cmtos "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/os"
+	rpcserver "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/jsonrpc/server"
+	rpctypes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/jsonrpc/types"
 )
 
 var routes = map[string]*rpcserver.RPCFunc{

@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/p2p"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p"
 )
 
 func setupChunkQueue(t *testing.T) (*chunkQueue, func()) {

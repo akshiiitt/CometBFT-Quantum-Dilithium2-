@@ -4,8 +4,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto/dilithium"
-	p2pconn "github.com/cometbft/cometbft/p2p/conn"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/dilithium"
+	p2pconn "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p/conn"
 )
 
 const (

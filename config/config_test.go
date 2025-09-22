@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/config"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/config"
 )
 
 func TestDefaultConfig(t *testing.T) {

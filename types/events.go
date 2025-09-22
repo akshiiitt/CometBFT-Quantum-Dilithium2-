@@ -3,10 +3,10 @@ package types
 import (
 	"fmt"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	cmtpubsub "github.com/cometbft/cometbft/libs/pubsub"
-	cmtquery "github.com/cometbft/cometbft/libs/pubsub/query"
+	abci "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/types"
+	cmtjson "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/json"
+	cmtpubsub "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/pubsub"
+	cmtquery "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/pubsub/query"
 )
 
 // Reserved event types (alphabetically sorted).

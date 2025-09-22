@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/cometbft/cometbft/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
 )
 
 // The code in this file is adapted from agl/ed25519.

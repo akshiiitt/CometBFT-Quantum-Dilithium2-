@@ -8,9 +8,9 @@ import (
 	"strings"
 	"sync"
 
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	cmtprotobits "github.com/cometbft/cometbft/proto/tendermint/libs/bits"
+	cmtmath "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/math"
+	cmtrand "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/rand"
+	cmtprotobits "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/libs/bits"
 )
 
 // BitArray is a thread-safe implementation of a bit array.

@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	rpchttp "github.com/cometbft/cometbft/rpc/client/http"
-	rpctypes "github.com/cometbft/cometbft/rpc/core/types"
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
-	"github.com/cometbft/cometbft/types"
+	rpchttp "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/client/http"
+	rpctypes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/core/types"
+	e2e "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/test/e2e/pkg"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 func init() {

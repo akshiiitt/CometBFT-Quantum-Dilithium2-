@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"math/big"
 
-	idxutil "github.com/cometbft/cometbft/internal/indexer"
-	cmtsyntax "github.com/cometbft/cometbft/libs/pubsub/query/syntax"
-	"github.com/cometbft/cometbft/state/indexer"
-	"github.com/cometbft/cometbft/types"
+	idxutil "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/internal/indexer"
+	cmtsyntax "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/pubsub/query/syntax"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/state/indexer"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 	"github.com/google/orderedcode"
 )
 

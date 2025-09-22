@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/cometbft/cometbft/libs/log"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
 )
 
 func TestTracingLogger(t *testing.T) {

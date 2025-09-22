@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	abcicli "github.com/cometbft/cometbft/abci/client"
+	abcicli "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/client"
 	mock "github.com/stretchr/testify/mock"
 )
 

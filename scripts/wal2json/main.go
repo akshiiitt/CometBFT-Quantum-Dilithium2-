@@ -12,8 +12,8 @@ import (
 	"io"
 	"os"
 
-	cs "github.com/cometbft/cometbft/consensus"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
+	cs "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/consensus"
+	cmtjson "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/json"
 )
 
 func main() {

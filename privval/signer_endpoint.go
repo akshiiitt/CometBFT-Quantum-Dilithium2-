@@ -5,10 +5,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/protoio"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	privvalproto "github.com/cometbft/cometbft/proto/tendermint/privval"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/protoio"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/service"
+	cmtsync "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/sync"
+	privvalproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/privval"
 )
 
 const (

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"reflect"
 
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtstrings "github.com/cometbft/cometbft/libs/strings"
-	tmp2p "github.com/cometbft/cometbft/proto/tendermint/p2p"
-	"github.com/cometbft/cometbft/version"
+	cmtbytes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/bytes"
+	cmtstrings "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/strings"
+	tmp2p "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/p2p"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/version"
 )
 
 const (

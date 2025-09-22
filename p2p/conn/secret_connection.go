@@ -20,13 +20,13 @@ import (
 	"golang.org/x/crypto/hkdf"
 	"golang.org/x/crypto/nacl/box"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/dilithium"
-	cryptoenc "github.com/cometbft/cometbft/crypto/encoding"
-	"github.com/cometbft/cometbft/libs/async"
-	"github.com/cometbft/cometbft/libs/protoio"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	tmp2p "github.com/cometbft/cometbft/proto/tendermint/p2p"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/dilithium"
+	cryptoenc "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/encoding"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/async"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/protoio"
+	cmtsync "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/sync"
+	tmp2p "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/p2p"
 )
 
 // 4 + 1024 == 1028 total frame size
@@ -52,7 +52,7 @@ var (
 
 // SecretConnection implements net.Conn.
 // It is an implementation of the STS protocol.
-// See https://github.com/cometbft/cometbft/blob/0.1/docs/sts-final.pdf for
+// See https://github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/blob/0.1/docs/sts-final.pdf for
 // details on the protocol.
 //
 // Consumers of the SecretConnection are responsible for authenticating

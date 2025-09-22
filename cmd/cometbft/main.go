@@ -4,11 +4,11 @@ import (
 	"os"
 	"path/filepath"
 
-	cmd "github.com/cometbft/cometbft/cmd/cometbft/commands"
-	"github.com/cometbft/cometbft/cmd/cometbft/commands/debug"
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/cli"
-	nm "github.com/cometbft/cometbft/node"
+	cmd "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/cmd/cometbft/commands"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/cmd/cometbft/commands/debug"
+	cfg "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/config"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/cli"
+	nm "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/node"
 )
 
 func main() {

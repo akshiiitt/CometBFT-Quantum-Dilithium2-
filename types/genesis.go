@@ -8,11 +8,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto"
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	cmtbytes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/bytes"
+	cmtjson "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/json"
+	cmtos "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/os"
+	cmttime "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types/time"
 )
 
 const (

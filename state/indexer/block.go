@@ -3,9 +3,9 @@ package indexer
 import (
 	"context"
 
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/libs/pubsub/query"
-	"github.com/cometbft/cometbft/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/pubsub/query"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 //go:generate ../../scripts/mockery_generate.sh BlockIndexer

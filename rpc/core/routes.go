@@ -1,7 +1,7 @@
 package core
 
 import (
-	rpc "github.com/cometbft/cometbft/rpc/jsonrpc/server"
+	rpc "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/jsonrpc/server"
 )
 
 // TODO: better system than "unsafe" prefix

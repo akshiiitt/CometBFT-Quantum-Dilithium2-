@@ -4,8 +4,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	"github.com/cometbft/cometbft/proxy"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/example/kvstore"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proxy"
 	"github.com/stretchr/testify/require"
 )
 

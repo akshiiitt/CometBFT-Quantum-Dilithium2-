@@ -10,8 +10,8 @@ package server
 import (
 	"fmt"
 
-	"github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/service"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/service"
 )
 
 // NewServer is a utility function for out of process applications to set up either a socket or

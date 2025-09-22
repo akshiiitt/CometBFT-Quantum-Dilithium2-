@@ -1,8 +1,8 @@
 package p2p
 
 import (
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/p2p/conn"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/service"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p/conn"
 )
 
 // Reactor is responsible for handling incoming messages on one or more

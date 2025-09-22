@@ -6,12 +6,12 @@ import (
 	"time"
 
 	dbm "github.com/cometbft/cometbft-db"
-	cmtcrypto "github.com/cometbft/cometbft/proto/tendermint/crypto"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	sm "github.com/cometbft/cometbft/state"
+	cmtcrypto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/crypto"
+	cmtproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/types"
+	sm "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/state"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	cmtstate "github.com/cometbft/cometbft/proto/tendermint/state"
+	abci "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/types"
+	cmtstate "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/state"
 	"github.com/stretchr/testify/require"
 )
 

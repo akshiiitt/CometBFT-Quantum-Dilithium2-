@@ -3,12 +3,12 @@ package encoding
 import (
 	"fmt"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/dilithium"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	"github.com/cometbft/cometbft/crypto/secp256k1"
-	"github.com/cometbft/cometbft/libs/json"
-	pc "github.com/cometbft/cometbft/proto/tendermint/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/dilithium"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/ed25519"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/secp256k1"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/json"
+	pc "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/crypto"
 )
 
 func init() {

@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/p2p"
-	p2pmocks "github.com/cometbft/cometbft/p2p/mocks"
-	ssproto "github.com/cometbft/cometbft/proto/tendermint/statesync"
-	proxymocks "github.com/cometbft/cometbft/proxy/mocks"
+	abci "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/config"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p"
+	p2pmocks "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p/mocks"
+	ssproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/statesync"
+	proxymocks "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proxy/mocks"
 )
 
 func TestReactor_Receive_ChunkRequest(t *testing.T) {

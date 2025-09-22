@@ -7,9 +7,9 @@ import (
 	"io"
 
 	dilithium2 "github.com/cloudflare/circl/sign/dilithium/mode2"
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	tmjson "github.com/cometbft/cometbft/libs/json"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/tmhash"
+	tmjson "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/json"
 )
 
 //-------------------------------------

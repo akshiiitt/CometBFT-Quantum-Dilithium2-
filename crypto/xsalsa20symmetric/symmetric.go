@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/crypto/nacl/secretbox"
 
-	"github.com/cometbft/cometbft/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
 )
 
 // TODO, make this into a struct that implements crypto.Symmetric.

@@ -6,13 +6,13 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	cstypes "github.com/cometbft/cometbft/consensus/types"
-	"github.com/cometbft/cometbft/libs/bits"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	"github.com/cometbft/cometbft/p2p"
-	cmtcons "github.com/cometbft/cometbft/proto/tendermint/consensus"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	cstypes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/consensus/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/bits"
+	cmtmath "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/math"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p"
+	cmtcons "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/consensus"
+	cmtproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 // MsgToProto takes a consensus message type and returns the proto defined consensus message.

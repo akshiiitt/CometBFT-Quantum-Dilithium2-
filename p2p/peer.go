@@ -8,11 +8,11 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/cometbft/cometbft/libs/cmap"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/libs/service"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/cmap"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/service"
 
-	cmtconn "github.com/cometbft/cometbft/p2p/conn"
+	cmtconn "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/p2p/conn"
 )
 
 //go:generate ../scripts/mockery_generate.sh Peer

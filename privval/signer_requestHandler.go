@@ -3,12 +3,12 @@ package privval
 import (
 	"fmt"
 
-	"github.com/cometbft/cometbft/crypto"
-	cryptoenc "github.com/cometbft/cometbft/crypto/encoding"
-	cryptoproto "github.com/cometbft/cometbft/proto/tendermint/crypto"
-	privvalproto "github.com/cometbft/cometbft/proto/tendermint/privval"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	cryptoenc "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/encoding"
+	cryptoproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/crypto"
+	privvalproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/privval"
+	cmtproto "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/proto/tendermint/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 func DefaultValidationRequestHandler(

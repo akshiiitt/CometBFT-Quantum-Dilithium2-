@@ -1,11 +1,11 @@
 package core
 
 import (
-	cm "github.com/cometbft/cometbft/consensus"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/types"
+	cm "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/consensus"
+	cmtmath "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/math"
+	ctypes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/core/types"
+	rpctypes "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/jsonrpc/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 // Validators gets the validator set at the given block height.

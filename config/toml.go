@@ -6,7 +6,7 @@ import (
 	"strings"
 	"text/template"
 
-	cmtos "github.com/cometbft/cometbft/libs/os"
+	cmtos "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/os"
 )
 
 // DefaultDirPerm is the default permissions used when creating directories.

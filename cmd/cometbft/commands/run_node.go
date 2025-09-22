@@ -9,9 +9,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cfg "github.com/cometbft/cometbft/config"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	nm "github.com/cometbft/cometbft/node"
+	cfg "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/config"
+	cmtos "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/os"
+	nm "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/node"
 )
 
 var (

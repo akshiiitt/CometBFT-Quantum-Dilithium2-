@@ -6,8 +6,8 @@ import (
 
 	"github.com/oasisprotocol/curve25519-voi/primitives/sr25519"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/tmhash"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/crypto/tmhash"
 )
 
 var _ crypto.PubKey = PubKey{}

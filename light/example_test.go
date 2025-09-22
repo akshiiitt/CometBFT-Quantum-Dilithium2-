@@ -10,13 +10,13 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/light"
-	"github.com/cometbft/cometbft/light/provider"
-	httpp "github.com/cometbft/cometbft/light/provider/http"
-	dbs "github.com/cometbft/cometbft/light/store/db"
-	rpctest "github.com/cometbft/cometbft/rpc/test"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/abci/example/kvstore"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/log"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/light"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/light/provider"
+	httpp "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/light/provider/http"
+	dbs "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/light/store/db"
+	rpctest "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/rpc/test"
 )
 
 // Automatically getting new headers and verifying them.

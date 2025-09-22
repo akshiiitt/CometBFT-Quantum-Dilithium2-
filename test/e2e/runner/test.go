@@ -4,8 +4,8 @@ import (
 	"context"
 	"os"
 
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
-	"github.com/cometbft/cometbft/test/e2e/pkg/exec"
+	e2e "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/test/e2e/pkg"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/test/e2e/pkg/exec"
 )
 
 // Test runs test cases under tests/

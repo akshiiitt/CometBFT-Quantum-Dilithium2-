@@ -1,8 +1,8 @@
 package state
 
 import (
-	mempl "github.com/cometbft/cometbft/mempool"
-	"github.com/cometbft/cometbft/types"
+	mempl "github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/mempool"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 // TxPreCheck returns a function to filter transactions before processing.

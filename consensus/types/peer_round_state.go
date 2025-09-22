@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/bits"
-	"github.com/cometbft/cometbft/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/libs/bits"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 //-----------------------------------------------------------------------------

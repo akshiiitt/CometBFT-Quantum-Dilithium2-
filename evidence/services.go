@@ -1,7 +1,7 @@
 package evidence
 
 import (
-	"github.com/cometbft/cometbft/types"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/types"
 )
 
 //go:generate ../scripts/mockery_generate.sh BlockStore

@@ -1,7 +1,7 @@
 package version
 
 import (
-	"github.com/cometbft/cometbft/version"
+	"github.com/akshiiitt/CometBFT-Quantum-Dilithium2-/version"
 )
 
 // TODO: eliminate this after some version refactor
