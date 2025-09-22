@@ -1,4 +1,4 @@
-module github.com/cometbft/cometbft
+module github.com/akshiiitt/CometBFT-Quantum-Dilithium2-
 
 go 1.22.11
 
